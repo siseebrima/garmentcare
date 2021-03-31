@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://use.fontawesome.com/e30d150720.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/home.css" />
+    <title>Garment Care Express</title>
+    <script>
+      $(document).ready(function () {
+        $(".dropdown").hover(function () {
+          var dropdownMenu = $(this).children(".dropdown-menu");
+          if (dropdownMenu.is(":visible")) {
+            dropdownMenu.parent().toggleClass("open");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!--top panel for contact display-->
+    <div
+      class="panel panel-default text-light h-100 d-flex py-1 justify-content-end pr-3 sticky-top"
+    >
+      <div class="panel-body text-light mr-3">
+        <a href="tel:+2202211112">
+          <i class="fa fa-phone mr-2" aria-hidden="true"></i>+220 221 1112</a
+        >
+      </div>
+      <div class="panel-body">
+        <a href="mailto:garmentcare.ex@gmail.com">
+          <i class="fa fa-envelope-o mr-2" aria-hidden="true"></i
+          >garmentcare.ex@gmail.com</a
+        >
+      </div>
+    </div>
+    <header>
+      <!--the navbar-->
+      <nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand mr-auto" href="index.html"
+            ><img src="images/logo5.png" class="img-fluid logo" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars text-white toggler" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="prices.html">Price List</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white mr-2"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">About Us</a>
+                  <a class="dropdown-item" href="#">Privacy</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="register.html">Register</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </nav>
+      <!--introductory text and button-->
+      <div class="introduction">
+        <h2 class="text-center text-white pb-5">
+          Garment Care Express Laundry Services
+        </h2>
+        <div class="bot text-center">
+          <a href="about.html"
+            ><div
+              class="btn btn-default text-white text-center btn-a"
+              role="button"
+            >
+              LEARN MORE
+            </div></a
+          >
+          <a href="prices.html"
+            ><div
+              class="btn btn-default text-white text-center btn-b"
+              role="button"
+            >
+              PRICE LIST
+            </div></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!--starting cards in main content-->
+      <div class="projects-horizontal">
+        <div class="container">
+          <div class="intro">
+            <h2 class="text-center">WE ARE OPEN</h2>
+            <p class="text-center">
+              We care about your clothes , and we'd do our best to make sure we
+              make it look as nice as possible, below are the services we offer
+            </p>
+          </div>
+          <div class="row projects">
+            <div class="col-sm-6 item mb-5">
+              <div class="row">
+                <div class="col-md-12 col-lg-5">
+                  <a href="#"
+                    ><img class="img-fluid" src="images/origin.jpg"
+                  /></a>
+                </div>
+                <div class="col">
+                  <h3 class="name mb-2">Service Washing</h3>
+                  <p class="description">
+                    Aenean tortor est, vulputate quis leo in, vehicula rhoncus
+                    lacus. Praesent aliquam in tellus eu gravida.
+                  </p>
+                  <div class="btn btn-primary info">INFO & PRICING</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 item mb-5">
+              <div class="row">
+                <div class="col-md-12 col-lg-5">
+                  <a href="#"
+                    ><img class="img-fluid" src="images/iron 2.jpg"
+                  /></a>
+                </div>
+                <div class="col">
+                  <h3 class="name mb-2">Ironing Service</h3>
+                  <p class="description">
+                    Aenean tortor est, vulputate quis leo in, vehicula rhoncus
+                    lacus. Praesent aliquam in tellus eu gravida.
+                  </p>
+                  <div class="btn btn-primary info">INFO & PRICING</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 item mb-5">
+              <div class="row">
+                <div class="col-md-12 col-lg-5">
+                  <a href="#"
+                    ><img class="img-fluid" src="images/duvet.jpg"
+                  /></a>
+                </div>
+                <div class="col">
+                  <h3 class="name mb-2">Duvet Cleaning</h3>
+                  <p class="description">
+                    Aenean tortor est, vulputate quis leo in, vehicula rhoncus
+                    lacus. Praesent aliquam in tellus eu gravida.
+                  </p>
+                  <div class="btn btn-primary info">INFO & PRICING</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 item mb-5">
+              <div class="row">
+                <div class="col-md-12 col-lg-5">
+                  <a href="#"
+                    ><img class="img-fluid" src="images/white.jpg"
+                  /></a>
+                </div>
+                <div class="col">
+                  <h3 class="name mb-2">Dry cleaning</h3>
+                  <p class="description">
+                    Aenean tortor est, vulputate quis leo in, vehicula rhoncus
+                    lacus. Praesent aliquam in tellus eu gravida.
+                  </p>
+                  <div class="btn btn-primary info">INFO & PRICING</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 item mb-5">
+              <div class="row">
+                <div class="col-md-12 col-lg-5">
+                  <a href="#"
+                    ><img class="img-fluid" src="images/clean.jpg"
+                  /></a>
+                </div>
+                <div class="col">
+                  <h3 class="name mb-2">Shirt Service</h3>
+                  <p class="description">
+                    Aenean tortor est, vulputate quis leo in, vehicula rhoncus
+                    lacus. Praesent aliquam in tellus eu gravida.
+                  </p>
+                  <div class="btn btn-primary info">INFO & PRICING</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 item mb-5">
+              <div class="row">
+                <div class="col-md-12 col-lg-5">
+                  <a href="#"
+                    ><img class="img-fluid" src="images/commercial.jpg"
+                  /></a>
+                </div>
+                <div class="col">
+                  <h3 class="name mb-2">Commercial Laundry</h3>
+                  <p class="description">
+                    Aenean tortor est, vulputate quis leo in, vehicula rhoncus
+                    lacus. Praesent aliquam in tellus eu gravida.
+                  </p>
+                  <div class="btn btn-primary info">INFO & PRICING</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--speedy delivery info service-->
+      <div class="delivery">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 delivery-text mt-auto mb-auto">
+              <h3>ENJOY SPEEDY DELIVERY SERVICE</h3>
+              <p>
+                Enjoy in-time delivery service from us when you drop your
+                clothes , our services are fast and reliable ,we won't be late
+                to deliver your clothes as your satisfaction is our no 1
+                priority
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="images/delivery.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--what makes us stand out-->
+      <div class="stand">
+        <div class="container">
+          <div class="stand-intro">
+            <h3 class="text-center">WHAT MAKES US STAND OUT</h3>
+            <hr />
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="https://img.icons8.com/carbon-copy/100/000000/time.png"
+              />
+              <h3 class="text-center">ON TIME DELIVERY</h3>
+              <p class="text-center">
+                We deliver when you request straight to your doorstep , enjoy
+                free delivery discount when you become a regular customer to us
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://img.icons8.com/carbon-copy/100/000000/clothes.png"
+              />
+              <h3 class="text-center">STARCHING SERVICE</h3>
+              <p class="text-center">
+                We starch clothes for our customers at no extra cost , so you
+                don't have to worry about paying extra cost for starching your
+                clothes
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://img.icons8.com/carbon-copy/100/000000/money.png"
+              />
+              <h3 class="text-center">AFFORDABLE SERVICE</h3>
+              <p class="text-center">
+                Our services are pocket friendly that you don't have to worry
+                about spending much when using our service
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--login or register highlight-->
+      <div class="highlight-blue">
+        <div class="container">
+          <div class="intro">
+            <h2 class="text-center">REGISTER OR LOGIN</h2>
+            <p class="text-center">
+              Login to place orders and book collection , Register now if you
+              don't have an account
+            </p>
+          </div>
+          <div class="buttons">
+            <a class="btn btn-primary" role="button" href="login.html">Login</a>
+            <a class="btn btn-primary" role="button" href="register.html"
+              >Register</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--end of highlight-->
+      <!--testimonials-->
+      <div class="testimonials-clean">
+        <div class="container">
+          <div class="intro">
+            <h2 class="text-center">Testimonials</h2>
+            <p class="text-center">
+              Our customers love us! Read what they have to say below concerning
+              how good our services are , hear from them
+            </p>
+          </div>
+          <div class="row people">
+            <div class="col-md-6 col-lg-4 item">
+              <div class="box">
+                <p class="description">
+                  Aenean tortor est, vulputate quis leo in, vehicula rhoncus
+                  lacus. Praesent aliquam in tellus eu gravida. Aliquam varius
+                  finibus est.
+                </p>
+              </div>
+              <div class="author">
+                <img class="rounded-circle" w-50 src="images/dami.jpg" />
+                <h5 class="name">Ebrima Sise</h5>
+                <p class="title">CEO of ebroTech</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <div class="box">
+                <p class="description">
+                  Praesent aliquam in tellus eu gravida. Aliquam varius finibus
+                  est, et interdum justo suscipit id. Praesent aliquam in tellus
+                  eu
+                </p>
+              </div>
+              <div class="author">
+                <img class="rounded-circle" src="images/ayo.jpg" />
+                <h5 class="name">Saul Frazer</h5>
+                <p class="title">Founder of Global Properties</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <div class="box">
+                <p class="description">
+                  Aliquam varius finibus est, et interdum justo suscipit.
+                  Vulputate quis leo in, vehicula rhoncus lacus. Praesent
+                  aliquam in tellus eu.
+                </p>
+              </div>
+              <div class="author">
+                <img class="rounded-circle" src="images/princess.jpg" />
+                <h5 class="name">Mrs. Jaiteh</h5>
+                <p class="title">Business woman and Mother.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end of testimonial-->
+    </main>
+
+    <footer>
+      <!-- footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-xs-12">
+              <div class="first">
+                <h4>What We Do</h4>
+                <p>Dry Cleaning</p>
+                <p>Ironing</p>
+                <p>Starching</p>
+                <p>Stain Removing</p>
+                <p>Fabric Care</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-xs-12">
+              <div class="second">
+                <h4>Navigate</h4>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Price List</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">How It Works</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-xs-12">
+              <div class="third">
+                <h4>Contact</h4>
+                <ul>
+                  <li>Faks Ceesay</li>
+                  <li></li>
+
+                  <li><i class="fa fa-envelope"></i> garmentcare.ex@gmail.com</li>
+                  <li><i class="fa fa-envelope"></i> faks@gmail.com</li>
+
+                  <li><i class="fa fa-map-marker-alt"></i> Kololi, The Gambia</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="line"></div>
+              <div class="second2">
+                <a href="https://www.facebook.com/garmentcareexpress" target="_blank">
+                  <i class="fa fa-facebook fa-2x margin"></i
+                ></a>
+                <a href="#" target="_blank">
+                  <i class="fa fa-twitter fa-2x margin"></i
+                ></a>
+                <a href="#" target="_blank">
+                  <i class="fa fa-instagram fa-2x margin"></i
+                ></a>
+                <a href="#" target="_blank"
+                  ><i class="fa fa-youtube fa-2x margin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- <p>Garment Care Express @2021. Devloped by ebroTech</p> -->
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
